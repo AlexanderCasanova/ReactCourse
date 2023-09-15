@@ -1,0 +1,45 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333; /* Un tono de gris oscuro */
+  font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #333, #111, #222, #444);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  /* Estilo para el párrafo que muestra el contador */
+  p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    background-color: #007bff;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Estilo para los botones al pasar el mouse sobre ellos */
+  button:hover {
+    background-color: #0056b3;
+  }
