@@ -8,9 +8,7 @@ Sigue estos pasos para construir y ejecutar la aplicación en un contenedor Dock
 Ejecuta el siguiente comando para construir la imagen Docker:
 
 <code>
-```
 docker build -t counter-app-react .
-```
 </code>
 
 Este comando construirá una imagen de Docker llamada "counter-app-react" utilizando el Dockerfile proporcionado.
@@ -19,9 +17,7 @@ Este comando construirá una imagen de Docker llamada "counter-app-react" utiliz
 Una vez que la imagen esté construida, puedes ejecutar la aplicación en un contenedor Docker utilizando el siguiente comando:
 
 <code>
-```
 docker run -p 80:80 counter-app-react
-```
 </code>
 Esto ejecutará la aplicación en un contenedor y mapeará el puerto 80 del contenedor al puerto 80 de tu máquina local. Puedes acceder a la aplicación en tu navegador web visitando http://localhost.
 
